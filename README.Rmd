@@ -1,5 +1,15 @@
-# ARIMA_SSA
-Comparação de Previsões entre os Modelos ARIMA e SSA
+---
+title: "Uma pequena comparação de prevsiões: ARIMA Vs SSA"
+author: "Daniel L. P. Esteves dos Reis"
+output:
+  pdf_document:
+          latex_engine: xelatex
+          toc: yes    
+bibliography: Bibliografia.bib
+encoding: "UTF-8"
+header-includes:
+   - \usepackage[utf8]{inputenc} 
+---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
